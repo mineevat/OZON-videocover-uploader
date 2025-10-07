@@ -1,12 +1,12 @@
 import requests
-import json
-import time
 import pandas as pd
-import urllib.request
 import cv2
 import os
+import time
 from PIL import Image
 import numpy as np
+import urllib.request
+from config import *
 
 ids, key, _ = ACCOUNTS[ACTIVE_ACCOUNT_INDEX]
 HEADERS = {
@@ -301,6 +301,7 @@ if df3.empty == False:
 
 else:
     print('df3 пуст')
+
 
 
 print('success')
