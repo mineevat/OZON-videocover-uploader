@@ -21,12 +21,11 @@ YANDEX_DISK_TOKEN = "YANDEX_TOKEN_1"  # токен Яндекс.Диска
 FOLDER_LINK = "https://disk.yandex.ru/d/FAKE_FOLDER_LINK"  # публичная ссылка на папку для видео
 
 # Названия видео
-VIDEO_NAME_START = "VIDEO_PREFIX_"  
+VIDEO_PREFIX = "VIDEO_PREFIX_"  
 # имена видео, загружаемых на ЯД, будут начинаться на этот набор символов
 
 # Таблицы
 TABLE_PATH = 'Desktop\\backup.xlsx'  # выгружаемая таблица с ссылками на видео на Яндекс.Диске
 TABLE_SHEET_NAME = 'sheet_name_demo' # sheet_name в table
-ARTICLES_FILE = 'Desktop\\articles_demo.xlsx'  # таблица с GUID-ами товаров, для которых нужны видео
-ARTICLES_SHEET_NAME = 'Sheet1'
-
+GUIDS_FILE = 'Desktop\\articles_demo.xlsx'  # таблица с GUID-ами товаров, для которых нужны видео
+GUIDS_SHEET_NAME = 'Sheet1'
